@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:gravity="center"
+        android:text="Тест №1"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:text="Правильный ответ под номером: 2"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text3"
+        android:text="Вы ответили: "
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text4"
+        android:gravity="center"
+        android:text="Тест №2"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text5"
+        android:text="Правильный ответ под номером: 1,2"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text6"
+        android:text="Вы ответили: "
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text7"
+        android:gravity="center"
+        android:text="Тест №3"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text8"
+        android:text="Правильный ответ под номером: 1,3"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text9"
+        android:text="Вы ответили: "
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Количество правильных ответов: "
+        android:id="@+id/text10"
+        android:textSize="30sp"
+        android:textColor="#000000"/>
+</LinearLayout>
